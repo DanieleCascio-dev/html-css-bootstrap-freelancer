@@ -61,3 +61,8 @@ nav {
 }
 
 /* Contact me */
+
+#contact-me {
+  color: var(--bg-header);
+  text-align: center;
+}
