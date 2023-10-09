@@ -1,6 +1,6 @@
 :root {
   --bg-header: #2c3e50;
-  --bg-hero: #1abc9c;
+  --bg-lgreen: #1abc9c;
   --text-color: #fff;
 }
 
@@ -43,7 +43,7 @@ nav {
 /* hero */
 #hero {
   min-height: 400px;
-  background-color: var(--bg-hero);
+  background-color: var(--bg-lgreen);
   color: var(--text-color);
 }
 
@@ -52,3 +52,12 @@ nav {
 }
 
 /* Portfolio */
+
+/* About */
+#about {
+  background-color: var(--bg-lgreen);
+  text-align: center;
+  color: var(--text-color);
+}
+
+/* Contact me */
