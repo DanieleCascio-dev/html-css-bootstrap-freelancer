@@ -23,6 +23,10 @@ img {
   margin: 0 auto;
 }
 
+.ms_text-primary {
+  color: var(--bg-header);
+}
+
 /* HEADER */
 /* nav */
 
@@ -57,10 +61,17 @@ header {
   max-width: 250px;
 }
 
+.ms-line {
+  width: 50px;
+  border: 1px solid;
+  opacity: 100;
+}
+
 /* Portfolio */
 .ms_section-title {
   text-transform: uppercase;
   text-align: center;
+  font-weight: 700;
 }
 /* About */
 #about {
