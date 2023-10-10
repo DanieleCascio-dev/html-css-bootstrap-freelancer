@@ -10,19 +10,6 @@ img {
   max-width: 100%;
 }
 
-.flex {
-  display: flex;
-  align-items: center;
-}
-
-.justify-center {
-  justify-content: center;
-}
-
-.align-center {
-  align-items: center;
-}
-
 /* HEADER */
 /* nav */
 
@@ -43,17 +30,21 @@ nav {
 
 /* hero */
 #hero {
-  min-height: 400px;
   background-color: var(--bg-lgreen);
   color: var(--text-color);
+  padding: 3rem 0;
 }
 
-#hero .hero-img {
-  width: 70%;
+#hero img {
+  width: 50%;
+  max-width: 250px;
 }
 
 /* Portfolio */
-
+.ms_section-title {
+  text-transform: uppercase;
+  text-align: center;
+}
 /* About */
 #about {
   background-color: var(--bg-lgreen);
