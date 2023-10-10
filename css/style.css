@@ -10,6 +10,15 @@ img {
   max-width: 100%;
 }
 
+.ms_border-radius {
+  border-radius: 50%;
+}
+
+.ms-container-small {
+  width: 70%;
+  margin: 0 auto;
+}
+
 /* HEADER */
 /* nav */
 
