@@ -95,6 +95,11 @@ main {
   border-top: 0;
   border-left: 0;
   border-right: 0;
+  border-radius: 0;
+}
+
+.form-floating .textarea-height {
+  height: 200px;
 }
 /* FOOTER */
 footer {
