@@ -87,6 +87,11 @@ header {
   text-align: center;
 }
 
+.ms_border-b {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
 /* FOOTER */
 footer {
   color: var(--text-color);
